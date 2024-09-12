@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**:Sreekar Kutagulla
+- **Dot Number**: Kutagulla.3
+- **Due Date**: 09/12/24
 
 ## Assignment Overview
 
@@ -192,9 +192,9 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: WormaTel
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - <!-- TODO: describe your component then delete this comment
   - **Kernel Methods**:
     - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
