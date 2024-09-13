@@ -212,11 +212,11 @@ will likely refine your design to make your implementation easier to use.
       - Yes. For example, for addSleep and subtractSleep, using the setSleep kernal, you can form those two by setting z to some negative or positive constant.
 
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Baseball Pitch 
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Baseball coaches use a grid to see what type of pitches the pitcher has thrown and where and how fast they are. This component will describe a baseball pitch and model all its qualities, ranging from where it's been thrown, if it has been hit/fouled/strike/ball, what type of pitch it is, and how fast it has been thrown. 
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - setZone: 
   - **Secondary Methods**:
     - <!-- TODO: list secondary methods then delete this comment -->
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
