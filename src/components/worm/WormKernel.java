@@ -2,7 +2,7 @@ package components.worm;
 
 import components.standard.Standard;
 
-public interface WormKernel extends Standard<WormKernel> {
+public interface WormKernel<String> extends Standard<WormKernel<String>> {
 
     boolean isMutated();
 
