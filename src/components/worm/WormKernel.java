@@ -10,6 +10,6 @@ public interface WormKernel extends Standard<WormKernel> {
 
     void set(int var1, String var2);
 
-    void get(int var3);
+    void get(int var1);
 
 }
