@@ -1,6 +1,4 @@
-package components.worm;
-
-public interface Worm<String> extends WormKernel<String> {
+public interface Worm extends WormKernel {
 
     void setName(String var1);
 
@@ -8,13 +6,15 @@ public interface Worm<String> extends WormKernel<String> {
 
     void setOrtholog(String var1);
 
+    void setSleep(String var1);
+
     String getName();
 
     String getGene();
 
     String getOrtholog();
 
-    void addSleep(int var1);
+    String getSleep();
 
     void addGen(int var1);
 
