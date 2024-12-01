@@ -1,6 +1,5 @@
 import components.standard.Standard;
 
-
 public interface WormKernel extends Standard<WormKernel> {
 
     boolean isMutated();

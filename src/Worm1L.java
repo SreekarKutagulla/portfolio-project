@@ -1,4 +1,3 @@
-import components.standard.Standard;
 import java.util.ArrayList;
 
 public class Worm1L extends WormSecondary {
@@ -41,7 +40,7 @@ public class Worm1L extends WormSecondary {
     }
 
     @Override
-    public final boolean isMutated(){
+    public final boolean isMutated() {
         boolean result = true;
         if (this.rep.get(2).isEmpty()) {
             result = false;
@@ -51,7 +50,7 @@ public class Worm1L extends WormSecondary {
     }
 
     @Override
-    public final boolean isSleep(){
+    public final boolean isSleep() {
         boolean result = true;
         if (this.rep.get(3).isEmpty()) {
             result = false;
@@ -69,23 +68,5 @@ public class Worm1L extends WormSecondary {
     public final String get(int var1) {
         return this.rep.get(var1);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

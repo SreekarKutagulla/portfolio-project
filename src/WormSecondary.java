@@ -81,15 +81,8 @@ public abstract class WormSecondary implements Worm {
 
         this.set(4, String.valueOf(result));
 
-
-
-
     }
 
     //Do toString and equals
-
-
-
-
 
 }
