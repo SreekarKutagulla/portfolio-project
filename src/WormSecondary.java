@@ -83,6 +83,14 @@ public abstract class WormSecondary implements Worm {
 
     }
 
-    //Do toString and equals
+    @Override
+    public String toString(){
+        r
+    }
+
+    @Override
+    public boolean equals(Object c){
+        return true;
+    }
 
 }
