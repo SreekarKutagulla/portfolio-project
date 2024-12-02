@@ -14,7 +14,7 @@ public abstract class WormSecondary implements Worm {
         }
 
         else {
-            this.set(1, "N2");
+            this.set(1, "");
         }
     }
 
@@ -84,13 +84,30 @@ public abstract class WormSecondary implements Worm {
     }
 
     @Override
-    public String toString(){
-        r
+    public String toString() {
+        String worm = "";
+        for (int i = 0; i < 5; i++) {
+            worm += this.get(i);
+        }
+
+        return worm;
     }
 
+    //fix this
     @Override
-    public boolean equals(Object c){
-        return true;
+    public boolean equals(Object c) {
+        boolean equal = true;
+        if (!(c instanceof String)) {
+            equal = false;
+        } else {
+            String str = (String) c;
+
+            //ArrayList<String> temp = new ArrayList<>();
+
+        }
+
+        return equal;
+
     }
 
 }

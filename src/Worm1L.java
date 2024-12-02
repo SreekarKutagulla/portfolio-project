@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Worm1L extends WormSecondary {
 
@@ -6,10 +7,12 @@ public class Worm1L extends WormSecondary {
 
     private void createNewRep() {
         this.rep = new ArrayList<>();
+
     }
 
-    public Worm1L() {
-        this.createNewRep();
+    public Worm1L(String name, String gene, String ortholog, String sleep,
+            String gen) {
+        this.rep = new ArrayList<String>(Arrays.asList(name, gene, ortholog, sleep, gen));
     }
 
     @Override
