@@ -6,7 +6,7 @@ public interface Worm extends WormKernel {
      * @updates this
      *
      * @param var1
-     *      Name input to replace orginal
+     *            Name input to replace orginal
      */
     void setName(String var1);
 
@@ -16,17 +16,17 @@ public interface Worm extends WormKernel {
      * @updates this
      *
      * @param var1
-     *      Gene input to replace orginal
+     *            Gene input to replace orginal
      */
     void setGene(String var1);
 
-     /**
+    /**
      * Replaces the ortholog of {@code this}.
      *
      * @updates this
      *
      * @param var1
-     *      Ortholog input to replace orginal
+     *            Ortholog input to replace orginal
      */
     void setOrtholog(String var1);
 
@@ -36,7 +36,7 @@ public interface Worm extends WormKernel {
      * @updates this
      *
      * @param var1
-     *      Sleep input to replace orginal
+     *            Sleep input to replace orginal
      */
     void setSleep(String var1);
 
@@ -75,7 +75,7 @@ public interface Worm extends WormKernel {
      * @updates this
      *
      * @param var1
-     *      User input to add to generation
+     *            User input to add to generation
      *
      */
     void addGen(int var1);

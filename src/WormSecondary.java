@@ -1,11 +1,19 @@
-
+/**
+ * Layered implementation of secondary methods
+ */
 public abstract class WormSecondary implements Worm {
 
+    /**
+     * sets the name of the Worm by taking input.
+     */
     @Override
     public final void setName(String var1) {
         this.set(0, var1);
     }
 
+    /**
+     * only sets the gene of the Worm if there has been a mutation.
+     */
     @Override
     public final void setGene(String var1) {
 
@@ -18,6 +26,9 @@ public abstract class WormSecondary implements Worm {
         }
     }
 
+    /**
+     * only sets the ortholog of the Worm if there has been a mutation.
+     */
     @Override
     public final void setOrtholog(String var1) {
         if (this.isMutated()) {
@@ -30,6 +41,9 @@ public abstract class WormSecondary implements Worm {
 
     }
 
+    /**
+     * only sets the sleep of the Worm if the worm has previous sleep score.
+     */
     @Override
     public final void setSleep(String var1) {
         if (this.isSleep()) {
@@ -42,6 +56,9 @@ public abstract class WormSecondary implements Worm {
 
     }
 
+    /**
+     * retrieves the name of the Worm.
+     */
     @Override
     public final String getName() {
 
@@ -50,6 +67,9 @@ public abstract class WormSecondary implements Worm {
 
     }
 
+    /**
+     * retrieves the gene of the Worm.
+     */
     @Override
     public final String getGene() {
 
@@ -57,6 +77,9 @@ public abstract class WormSecondary implements Worm {
         return root;
     }
 
+    /**
+     * retrieves the ortholog of the Worm.
+     */
     @Override
     public final String getOrtholog() {
 
@@ -65,6 +88,9 @@ public abstract class WormSecondary implements Worm {
 
     }
 
+    /**
+     * retrieves the sleep of the Worm.
+     */
     @Override
     public final String getSleep() {
 
@@ -73,6 +99,9 @@ public abstract class WormSecondary implements Worm {
 
     }
 
+    /**
+     * adds a specified input to the generation of the Worm.
+     */
     @Override
     public final void addGen(int var1) {
         String root = this.get(4);

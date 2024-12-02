@@ -8,14 +8,14 @@ public interface WormKernel extends Standard<Worm> {
 
     /**
      * Checks if object has a gene.
-     * 
+     *
      * @return true if string is not empty.
      */
     boolean isMutated();
 
     /**
      * Checks if object has a sleep score.
-     * 
+     *
      * @return true if string is not empty.
      */
     boolean isSleep();
