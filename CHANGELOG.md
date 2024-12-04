@@ -8,6 +8,18 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+
+## [2024.12.03]
+- Added Wormotel and WormPOC files that use the worm component
+- Created test files to test kernel and abstract methods
+
+## [2024.11.09]
+
+### Added
+- Added Worm Kernel file with kernel methods
+- Added Worm and Worm1L files with abstract methods
+- Changed Kernel methods from original thinking
+
 ## [2024.08.07]
 
 ### Added
