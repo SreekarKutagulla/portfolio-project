@@ -216,27 +216,33 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - Baseball coaches use a grid to see what type of pitches the pitcher has thrown and where and how fast they are. This component will describe a baseball pitch and model all its qualities, ranging from where it's been thrown, if it has been hit/fouled/strike/ball, what type of pitch it is, and how fast it has been thrown. 
   - **Kernel Methods**:
-    - setZone: 
+    - setResult(String a): if it was a strike, foul, hit or ball
+    - setSpeed(int b): set the speed of the pitch
+    - setZone(String a): where the ball was thrown
+    - setType(Strng a): type of pitch, changeup, fastball etc...
+    - GET VERSIONS OF ALL METHODs
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - isValidPitch(): was it thrown in the strikezone and was it hittable
+    - getTimetoPlate(): time in air
+    - getPitchOutcome(): full description of pitch
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes it would use Map because I have multiple different types and map makes it easier to use.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No,everything will be set by the user. However, there will be a constant about the distance from the mound.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, all of them can be implemented using the kernel method. For example, isValidPitch will use the get versions of all the methods.
 
 
 - Component Design #3: <!-- TODO: give component a name then delete this comment -->
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - 
   - **Kernel Methods**:
     - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
