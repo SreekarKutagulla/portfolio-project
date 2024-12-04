@@ -122,19 +122,13 @@ public abstract class WormSecondary implements Worm {
         return worm;
     }
 
-    //fix this
     @Override
     public boolean equals(Object c) {
         boolean equal = true;
-        if (!(c instanceof String)) {
+        String str = c.toString();
+        if (!this.toString().equals(str)) {
             equal = false;
-        } else {
-            String str = (String) c;
-
-            //ArrayList<String> temp = new ArrayList<>();
-
         }
-
         return equal;
 
     }
