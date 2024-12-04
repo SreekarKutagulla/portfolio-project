@@ -1,3 +1,6 @@
+import components.worm.Worm;
+import components.worm.Worm1L;
+
 /**
  * Simpler proof of concept of worm component.
  */

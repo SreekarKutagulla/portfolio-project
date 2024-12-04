@@ -1,3 +1,4 @@
+package components.worm;
 public interface Worm extends WormKernel {
 
     /**
