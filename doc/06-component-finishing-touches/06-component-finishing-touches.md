@@ -298,18 +298,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+At first, when doing projects in software 1, I really did not find any joy in doing them and I did not find them useful. Especially, coming from a coding background, specifically in sports analytics, I was really used to see my code actually be of use. With the portfolio project, I was able to take what I learned in the research lab I work for, which specifically works on C. Elegan worms, and actually create a component that can represent them and our experiment. I think I understand software development a lot more because I am able to witness the whole "tree" in a sense. 
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The portfolio project did surface some gaps in my knowedledge of software development. As simple as it seems, I was always confused how different classes build on each other and create a component like NaturalNumber or BinaryTree. As a result, doing this project helped me figure out a lot more about the process and the inner workings of components.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+This project helped me enjoy software development. Even though I wasn't following the deadline(my bad), I still really enjoyed thinking about implementing something I actually work with and making it "real" in a sense. Even before this, I did love software development but this project definitely made it better.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -317,25 +317,25 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I learned how to use my online resources and manipulate what I see online to fit my work. For example, I had some trouble with a NullPointer wirh my ArrayList so I had to search online ways to fix this and I was able to find an implementation for some other code. However, I learned how to manipulate that and turn it into something I can use.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+< Software development, iterative process, Java
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+< On the idea of seeing things come to "life", I really loved how I was able to implement something I have been working on for a year(C. Elegans). I'm really interested in quantitative biology and this project helped highten my coding skills so I defininetly more interested now.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+< Working at my lab and continuing to code seems to really help. On top of that, taking more CS classes and project based classes helps as well. Some mentors I can keep in contact have to be my lab PI, the grad student I work under, and my IBE(integrated business and engineering) program leader.
 
 ### Changelog
 
