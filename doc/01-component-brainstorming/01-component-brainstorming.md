@@ -185,7 +185,7 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: WormaTel
+- Component Design #1: Wormotel
   - **Description**:
     - In my current lab, we do testing on these roundworms called C. Elegans. These worms are put into a WormaTel, essentially a 6 by 8 silicon mold with 48 wells. Each well is then hit with a certain frequency ray to put them into sleep. This component will model a live WormaTel in testing, with 48 different arrays, holding information on 1) Whether or not there is a worm in the well, 2) If the worm has been experimented on, 3) a sleep value measuring its pixel movement during its sleep stage, and 4) a strain name from where the worm was picked.
   - **Kernel Methods**:
@@ -240,27 +240,36 @@ will likely refine your design to make your implementation easier to use.
       - Yes, all of them can be implemented using the kernel method. For example, isValidPitch will use the get versions of all the methods.
 
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Worm
   - **Description**:
-    - 
+    - Going off the wormotel, the C.Elegan itself can be modeled as a component. We do sleep testing on these worms so they have certain properties like mutated gene, the human ortholog, sleep score etc...
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - isMutated(): tells you if the worm has a mutated gene
+    - isSleep(): tells you if the worm has been experimented on and there is a sleep score
+    - set(int var 1, String var2): sets a certain property from the worm string array
+    - get(int var1): gets a certain propery from the worm string array
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - setName(String var1): sets the name of the worm
+    - setGene(String var1): sets the gene mutated of the worm
+    - setOrtholog(String var1): sets the ortholog of the worm
+    - getName(): get the name of the worm
+    - getGene(): get the gene of the worm
+    - getOrtholog(): get the ortholog of the worm
+    - getSleep(): get the sleep score of the worm
+    - addGen(): add a testing generation to the worm
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+       - Yes
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Just ArrayList<>
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
-
+      - Using the set method, every secondary set method can be made.
 ## Post-Assignment
 
 The following sections detail everything that you should do once you've
