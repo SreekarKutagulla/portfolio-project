@@ -3,6 +3,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import worm.Worm;
+
 /**
  * JUnit test fixture for {@code Worm}'s abstract methods.
  *

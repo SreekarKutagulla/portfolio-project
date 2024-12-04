@@ -2,6 +2,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import worm.Worm;
+
 /**
  * JUnit test fixture for {@code Worm}'s kernel methods.
  *

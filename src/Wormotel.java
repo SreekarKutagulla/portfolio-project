@@ -1,3 +1,6 @@
+import worm.Worm;
+import worm.Worm1L;
+
 /**
  * Proof of concept of worm component.
  */
